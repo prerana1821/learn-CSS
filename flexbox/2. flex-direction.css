@@ -1,0 +1,6 @@
+.container {
+ flex-direction: row; /* default, main-axis is from left-to-right */
+ /* flex-direction: column; main-axis is from top-to-bottom  */
+ /* flex-direction: row-reverse; main-axis is from right-to-left  */
+ /* flex-direction: column-reverse; main-axis is from bottom-to-top  */
+}
