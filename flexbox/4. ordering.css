@@ -1,0 +1,19 @@
+.box {
+  flex: 1;
+}
+/* by default all are order 0 */
+.box3 {
+  order: 1;
+}
+
+.box8 {
+  order: 2;
+}
+
+.box6 {
+  order: -1;
+}
+
+.box7 {
+  order: -2;
+}

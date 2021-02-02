@@ -47,5 +47,5 @@
   /* display: inline-flex; streched only for required */
   display: flex; /*  full streched */
   border: 10px solid gold;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
