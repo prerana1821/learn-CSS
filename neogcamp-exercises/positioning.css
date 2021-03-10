@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.superscript {
+  font-size: small;
+  position: relative;
+  bottom: 15px;
+}
+
+.notification {
+  border: 1px solid #000;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.modal {
+  border: 1px solid #000;
+  max-width: 20%;
+  position: relative;
+}
+
+.modal > img {
+  width: 100%;
+}
+
+.badge {
+  position: absolute;
+  top: 1rem;
+  /* left: 0.5rem; */
+  padding: 0.2rem 0.5rem;
+  color: #fff;
+  background-color: #f13a7a;
+}
+
+.modal-info {
+  padding: 0 0.6rem;
+}
+
+.modal-info h2,
+.modal-info h4,
+.modal-info h3 {
+  margin: 0.5rem 0;
+}
+
+.modal-info h4 {
+  color: #222;
+}
+
+.modal-info small {
+  color: #222;
+  text-decoration: line-through;
+}
+
+.modal-info span {
+  color: #f13a7a;
+}
+
+.close {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.8rem;
+  border: none;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.overlay-txt {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  width: 100px;
+}
