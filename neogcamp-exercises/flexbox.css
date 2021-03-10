@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #f1f5f8;
+}
+
+.row {
+  display: flex;
+  /* min-height: 500px; */
+  /* align-items: center; */
+  /* border: 1px solid #000; */
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 2em;
+  display: flex;
+  background: #e2f3ff;
+  box-shadow: 9.91px 9.91px 15px #def, -9.91px -9.91px 15px #f1f6fa;
+  margin: 1em;
+  flex-direction: column;
+  border-radius: 1rem;
+  justify-content: space-between;
+  max-width: 200px;
+}
+
+.card > p {
+  flex-grow: 1;
+}
+
+.card button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  background-color: #f50057;
+  color: #fff;
+  border-radius: 2rem;
+  font-size: large;
+}
+
+/* .row .end {
+  align-self: flex-end;
+} */
+
+/* or */
+/* .row + .end {
+  align-self: flex-end;
+} */
